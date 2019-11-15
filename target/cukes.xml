@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="57.738566">
+<testcase classname="Searching the vegetables from the greekart web application" name="searching the particular item and proceed to checkout" time="30.882598">
+<system-out><![CDATA[Given User is on Greenkart landing page.....................................passed
+When search for the Brinjal item............................................passed
+And adding items to the cart................................................passed
+And performs proceed to checkout for purchase...............................passed
+Then verify Brinjal is populated............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Searching the vegetables from the greekart web application" name="searching the particular item and proceed to checkout 2" time="26.855968">
+<system-out><![CDATA[Given User is on Greenkart landing page.....................................passed
+When search for the Beetroot item...........................................passed
+And adding items to the cart................................................passed
+And performs proceed to checkout for purchase...............................passed
+Then verify Beetroot is populated...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

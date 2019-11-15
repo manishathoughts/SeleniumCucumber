@@ -1,0 +1,222 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 18,
+        "name": "searching the particular item and proceed to checkout",
+        "description": "",
+        "id": "searching-the-vegetables-from-the-greekart-web-application;searching-the-particular-item-and-proceed-to-checkout;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2330435700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6543585100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on Greenkart landing page",
+            "match": {
+              "location": "MyStepDefinitions.user_is_on_greenkart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3516743400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "search for the Brinjal item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 15
+                }
+              ],
+              "location": "MyStepDefinitions.search_for_the_item(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13345931400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "adding items to the cart",
+            "match": {
+              "location": "MyStepDefinitions.adding_items_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5082549100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "performs proceed to checkout for purchase",
+            "match": {
+              "location": "stepDefination.performs_proceed_to_checkout_for_purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63353300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify Brinjal is populated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 7
+                }
+              ],
+              "location": "MyStepDefinitions.verify_is_populated(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Selenium-test1"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "searching the particular item and proceed to checkout",
+        "description": "",
+        "id": "searching-the-vegetables-from-the-greekart-web-application;searching-the-particular-item-and-proceed-to-checkout;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 77549500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4834635800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on Greenkart landing page",
+            "match": {
+              "location": "MyStepDefinitions.user_is_on_greenkart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3406865300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "search for the Beetroot item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beetroot",
+                  "offset": 15
+                }
+              ],
+              "location": "MyStepDefinitions.search_for_the_item(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13357606800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "adding items to the cart",
+            "match": {
+              "location": "MyStepDefinitions.adding_items_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5105735200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "performs proceed to checkout for purchase",
+            "match": {
+              "location": "stepDefination.performs_proceed_to_checkout_for_purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73575100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify Beetroot is populated",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beetroot",
+                  "offset": 7
+                }
+              ],
+              "location": "MyStepDefinitions.verify_is_populated(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Selenium-test1"
+          }
+        ]
+      }
+    ],
+    "name": "Searching the vegetables from the greekart web application",
+    "description": "",
+    "id": "searching-the-vegetables-from-the-greekart-web-application",
+    "keyword": "Feature",
+    "uri": "search.feature"
+  }
+]
